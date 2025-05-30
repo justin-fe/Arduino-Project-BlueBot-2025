@@ -33,9 +33,10 @@ Made by:
 - Add wheel encoders for more precise steering
 - Develop a custom mobile app interface
 
-## 📸 Final Build
+## 📁 Files
 
-![Final BlueBot Build](./image2.jpeg)
+- `bluebot.ino` – Arduino code
+- `BlueBot_Final_Report.docx` – Full project report
 
 ## 🙌 Credits
 
