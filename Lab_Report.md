@@ -129,9 +129,9 @@ Reflecting on this project, we are proud of how much we were able to learn and a
 
 
 ## References
-“Arduino 4WD Robotic Car Assemble Guide - STEManGo Electronics Version.” YouTube, uploaded by STEManGo Electronics, 30 August 2018,
-“How to make a Bluetooth control car with a 2WD smart car kit | 2WD Bluetooth car Arduino.” YouTube, uploaded by SriTu Hobby, 7 November 2024,
-Dawson Virtual Lab, Dawson College,
+- “Arduino 4WD Robotic Car Assemble Guide - STEManGo Electronics Version.” YouTube, uploaded by STEManGo Electronics, 30 August 2018.
+- “How to make a Bluetooth control car with a 2WD smart car kit | 2WD Bluetooth car Arduino.” YouTube, uploaded by SriTu Hobby, 7 November 2024.
+- Dawson Virtual Lab, Dawson College.
 
 
 ## Acknowledgements
