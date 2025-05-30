@@ -49,12 +49,65 @@ Diagram 2: Final Configuration
 ### Software Development
 The software was written using the Arduino IDE using basic C++ functions. No external libraries were needed, which made the code lightweight and easy to debug. The core functionality relies on receiving commands over Bluetooth and mapping those commands to specific motor actions using PWM signals. To begin, we defined the motor control pins connected to the L298N motor driver. These pins were set as outputs in the setup function:
 
+#define in1 5 //L298n Motor Driver pins.
+#define in2 6
+#define in3 10
+#define in4 11
+#define LED 13
+void setup() {
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT); 
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+  pinMode(LED, OUTPUT); //Set the LED pin.
+  Serial.begin(9600);  //Set the baud SSrate to Bluetooth module.
+}
 
 The robot continuously checks for incoming Bluetooth commands within the loop function. When a character is received, such as 'F' for forward or 'L' for left, the corresponding function is called after first stopping the motors to prevent any overlap or unintended motion:
 
+void loop() {
+  if (Serial.available() > 0) {
+    command = Serial.read();
+    Stop(); //Initialize with motors stoped.
+    switch (command) {
+      case 'F':
+        forward();
+        break;
+      case 'B':
+        back();
+        break;
+      case 'L':
+        left();
+        break;
+      case 'R':
+        right();
+        break;
+      case 'G':
+        forwardleft();
+        break;
+      case 'I':
+        forwardright();
+        break;
+    }
+
+  }
+}
+
 Each direction function controls the motors by adjusting the PWM signal using analogWrite(). For example, the forward function applies speed to IN1 and IN3:
 
+void forward() {
+  analogWrite(in1, Speed);
+  analogWrite(in3, Speed);
+}
+
 We initially set the speed to 220 but found it too fast during testing. To improve control and stability, we reduced the value to 150. We also implemented a Stop() function to ensure all motors shut off between commands.
+
+void Stop() {
+  analogWrite(in1, 0);
+  analogWrite(in2, 0);
+  analogWrite(in3, 0);
+  analogWrite(in4, 0);
+}
 
 To send the commands, we used the “Arduino Bluetooth Controller” app on an Android tablet. The Car Controller interface allowed us to send single-letter commands that the Arduino could interpret via its serial input. Although the HC-05 module did not work with iOS, it was compatible with this Android-based system.
 
