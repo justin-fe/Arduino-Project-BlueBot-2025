@@ -1,24 +1,21 @@
-# BlueBot: Arduino Bluetooth Robot - Lab Report
+<p align="center">
+  <strong>Dawson College</strong><br><br>
 
-Dawson College
+  <strong>Laboratory Report</strong><br>
+  <strong>Physics Comprehensive Examination</strong><br><br>
 
+  <h1>BlueBot</h1><br>
 
-Laboratory Report
-Physics Comprehensive Examination
+  <em>Written by:</em><br>
+  Myles Elman<br>
+  Justin Ferreira<br><br>
 
+  <em>Submitted to:</em> Joel Trudeau<br>
+  <em>Date of Submission:</em> 2025/05/30
+</p>
 
+---
 
-Project Title: BlueBot
-
-
-
-Written by:
-Myles Elman
-Justin Ferreira
-
-
-Submitted to: Joel Trudeau
-Date of the Lab Report Submission: 2025/05/30
 
 ## Introduction
 In recent years, mobile robotics has become increasingly popular not just in industry but also in educational and hobby settings. Platforms like Arduino have made it possible for students to design and build functional robots with limited resources. BlueBot was developed as part of this trend, integrating fundamental hardware components with software to create a simple, customizable remote-controlled vehicle. This report outlines the design, development, and testing of BlueBot, a Bluetooth-controlled Arduino robot created during our comprehensive examination (CE) in the engineering physics course with Manuel Toharia Zapata. As future mechanical and electrical engineering students, this project offered a valuable opportunity to deepen our understanding of electronics and automation through hands-on experience. We would see this as an opportunity to utilise our knowledge gained in our future schooling years.
