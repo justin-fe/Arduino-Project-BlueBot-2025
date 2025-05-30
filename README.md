@@ -17,7 +17,6 @@ Made by:
    - `B` – Backward
    - `L` – Turn Left
    - `R` – Turn Right
-   - `S` – Stop
 
 ## ✅ Project Highlights
 
