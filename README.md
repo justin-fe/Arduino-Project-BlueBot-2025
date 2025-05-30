@@ -29,9 +29,8 @@ Made by:
 ## 🔧 To Do
 
 - Add ultrasonic sensor for obstacle detection
-- Add photos and videos of the robot in action
 
 ## 🙌 Credits
 
-Thank you to Joel Trudeau for organizing and providing us with necessary material! It was very fun to assemble and code.
+Thank you to Joel Trudeau and Dawson College for organizing and providing us with necessary material! It was very fun to assemble and code.
 
