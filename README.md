@@ -33,6 +33,10 @@ Made by:
 - Add wheel encoders for more precise steering
 - Develop a custom mobile app interface
 
+## 📸 Final Build
+
+![Final BlueBot Build](./image2.jpeg)
+
 ## 🙌 Credits
 
 Thank you to Joel Trudeau and Dawson College for organizing and providing us with necessary material! It was very fun to assemble and code.
