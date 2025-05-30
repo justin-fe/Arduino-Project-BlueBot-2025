@@ -43,7 +43,7 @@ Initially, we were a bit behind in starting this project, as we had a lot of oth
 The components used are as indicated: one Arduino uno compatible board, an L298N Dual H-Bridge Motor Driver, two 6V DC geared motors with rubber wheels, an HC-05 Bluetooth module, an MDF laser-cut robot chassis, male-to-female jumper wires and a 9V battery. As mentioned before, the system was initially powered using two rechargeable USB power banks. One powered the Arduino board via the USB port, while the other supplied current to the motor driver. We also had resistors and a breadboard (Diagram 1). This dual-power strategy resulted in more stable performance during extended operation, but it was too complicated and we realized there was an easier way. Thus, in our final design, we simplified the system by removing the breadboard, eliminating the second Arduino, and powering the entire circuit with a single 9V battery connected directly to the main Arduino board. The HC-05 module and L298N driver were wired using standard jumper wires without any resistors or voltage divider (Diagram 2). This setup reduced wiring complexity, improved reliability, and allowed for a more compact and manageable robot.
 
 Diagram 1: Initial Configuration
-
+https://github.com/justin-fe/Arduino-Project-BlueBot-2025/blob/a967042a66e9542fa60a958e757aa6b9e3ff4734/Arduino%20Project%20CE%20Lab%20Report%20(1).docx
 Diagram 2: Final Configuration
 https://github.com/justin-fe/Arduino-Project-BlueBot-2025/blob/a967042a66e9542fa60a958e757aa6b9e3ff4734/BlueBot.jpeg
 
