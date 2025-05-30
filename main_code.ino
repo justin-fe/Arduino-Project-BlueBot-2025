@@ -17,7 +17,7 @@ void setup() {
   pinMode(in3, OUTPUT);
   pinMode(in4, OUTPUT);
   pinMode(LED, OUTPUT); //Set the LED pin.
-  Serial.begin(9600);  //Set the baud rate to your Bluetooth module.
+  Serial.begin(9600);  //Set the baud rate to Bluetooth module.
 }
  
 void loop() {
