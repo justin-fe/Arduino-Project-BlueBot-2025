@@ -45,7 +45,7 @@ The components used are as indicated: one Arduino uno compatible board, an L298N
 Diagram 1: Initial Configuration
 
 Diagram 2: Final Configuration
-
+https://github.com/justin-fe/Arduino-Project-BlueBot-2025/blob/a967042a66e9542fa60a958e757aa6b9e3ff4734/BlueBot.jpeg
 
 ### Software Development
 The software was written using the Arduino IDE using basic C++ functions. No external libraries were needed, which made the code lightweight and easy to debug. The core functionality relies on receiving commands over Bluetooth and mapping those commands to specific motor actions using PWM signals. To begin, we defined the motor control pins connected to the L298N motor driver. These pins were set as outputs in the setup function:
