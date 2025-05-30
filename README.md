@@ -35,8 +35,11 @@ Made by:
 
 ## 📁 Files
 
-- `bluebot.ino` – Arduino code
-- `BlueBot_Final_Report.docx` – Full project report
+- `BlueBot.jpeg` – Final Diagram of BlueBot
+- `Arduino Project CE Lab Report (1).docx` – Full project report
+- 'Demo.mov' - Demo of BlueBot
+- 'Lab_Report.md' - Full project report (markdown)
+- 'main_code.ino' - Full Code
 
 ## 🙌 Credits
 
