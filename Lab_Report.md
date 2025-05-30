@@ -19,6 +19,8 @@
 </div>
 
 ---
+
+
 ## Introduction
 In recent years, mobile robotics has become increasingly popular not just in industry but also in educational and hobby settings. Platforms like Arduino have made it possible for students to design and build functional robots with limited resources. BlueBot was developed as part of this trend, integrating fundamental hardware components with software to create a simple, customizable remote-controlled vehicle. This report outlines the design, development, and testing of BlueBot, a Bluetooth-controlled Arduino robot created during our comprehensive examination (CE) in the engineering physics course with Manuel Toharia Zapata. As future mechanical and electrical engineering students, this project offered a valuable opportunity to deepen our understanding of electronics and automation through hands-on experience. We would see this as an opportunity to utilise our knowledge gained in our future schooling years.
 
