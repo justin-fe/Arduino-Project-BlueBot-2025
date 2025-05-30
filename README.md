@@ -29,6 +29,9 @@ Made by:
 ## 🔧 To Do
 
 - Add ultrasonic sensor for obstacle detection
+- Upgrade to HC-10 or BLE module for full device compatibility
+- Add wheel encoders for more precise steering
+- Develop a custom mobile app interface
 
 ## 🙌 Credits
 
